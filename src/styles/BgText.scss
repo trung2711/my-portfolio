@@ -1,0 +1,33 @@
+.Content-Text {
+    font-weight: bolder;
+    border-radius: 10px;
+    background-image: linear-gradient(0.25turn, #FFFFFF, #c9F0FF, #D5CAd6);
+    opacity: 0.8;
+    line-height:1.5;
+    padding: 10px 0;
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 550;
+        margin-left: 0.6em;
+        margin-right: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Content-Text h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+}
+
+.Header-Text {
+    color: #231F20;
+    border-radius: 8px;
+    background-image: linear-gradient(0.25turn, #FFFFFF, #c9F0FF, #D5CAd6);
+    line-height:1.5;
+    padding: 8px 16px;
+}
+
+.Header-Text-Container {
+    display: flex;
+    margin: 0.8em 0;
+}

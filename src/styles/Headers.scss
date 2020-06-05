@@ -1,0 +1,129 @@
+.Header { 
+    margin: 0 !important;
+    padding: 0 0 2em 0 !important;
+    min-height: 350px;
+    clip-path: polygon(100% 0, 100% 94%, 50% 100%, 50% 100%, 0 94%, 0% 0%);
+    transition: 0.3s;
+}
+
+#Header-Photo-Container {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-Content {
+    margin-top: 3.5em;
+    padding: 0 3vw 2em;
+    * {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.Header-Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Left-Edge {
+    margin-left: 0 !important;
+}
+
+.Right-Edge {
+    margin-right: 0 !important;
+}
+
+.Header-Nav a {
+    text-align: center;
+    min-width: 7rem;
+    font-size: 0.8em;
+    padding: 0.2em 0.4em;
+    margin: 0.8em 0.6em 0.6em;
+    display: inline-block;
+    border-radius: 4em;
+    border: 0.12em solid transparent;
+    background: linear-gradient(0.25turn, #FFFFFF, #c9F0FF, #D5CAd6);
+    color: #FFFFFF;
+    background-clip:  border-box, text;
+    background-position: center center;
+    box-shadow:inset 0 0 0 100px #231F20;
+    background-size:  110% 110%;
+    transition: 0.5s;
+}
+
+#header-navbar-nav {
+    margin-top: 5px;
+}
+
+.Header-Nav a:hover{
+    font-weight: bolder;
+    color: #231F20;
+    box-shadow: none;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.Border-Div {
+    border-bottom: 0.15em solid white;
+}
+
+#Header-Photo {
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .Border-Div {
+        display: none;
+    }
+
+    .Header-Content {
+        margin-top: 2em;
+        & > [class^="col-"],
+        & > [class*=" col-"] {
+            margin: 10px 0;
+        }
+    }
+}
+
+.My-Header-Nav-Bar {
+    background-color: #231F20;
+    width: 100%;
+    font-size: 0.9em;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    .navbar-toggler {
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .My-Header-Nav-Bar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    #Header-Text-Container * {
+        font-size:  14px;
+    }
+}
+
+#Header-Photo-Border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10.3em;
+    width: 10.3em;
+    border-radius: 50%;
+    background: linear-gradient(0.25turn, #FFFFFF, #c9F0FF, #D5CAd6);
+}

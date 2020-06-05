@@ -1,0 +1,23 @@
+.Skill-Tab {
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+    margin-left: 2vw;
+    color: rgba(34, 34, 59, 1);
+    
+    p {
+        margin: 0 0.9em;
+        font-size: 1em;
+        word-spacing: 1em;
+    }
+    hr {
+        border-color: rgba(34, 34, 59, 1);
+        margin: 0.4em 0.8em 0.6em;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .Skill-Tab {
+        margin: 0.5em 0;
+    }
+}

@@ -1,0 +1,26 @@
+.Footer {
+    color: white;
+    font-size: 0.6em;
+    background-color: rgba(35, 31, 32, 0.94);
+    padding: 3em 3vw 2em;
+    .row {
+        display: flex;
+        align-items: center;
+    }
+    a {
+      color: #c9F0FF;
+    }
+}
+
+.Footer-Left {
+    text-align: left;
+}
+.Footer-Right {
+    text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .Footer-Right, .Footer-Left {
+        text-align: center;
+    }
+}
