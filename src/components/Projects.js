@@ -152,9 +152,9 @@ class Projects extends Component{
                     <Col>
                       <h2><b>Features:</b></h2>
                       <ul style={{paddingLeft: '1.1em', textAlign: 'left'}}>
-                        <li>Travel guide chatbot in 10 different languages with 3 levels of difficulty; difficulty increases by users' chatting daily and frequently.</li>
                         <li>Text translation in over 60 languages, along with speech-to-text and text-to-speech functionalities in supported languages.</li>
                         <li>Image-to-text-to-translation: a combination of text recognition with the app's translation feature.</li>
+                        <li>Travel guide chatbot in 10 different languages with 3 levels of difficulty; difficulty increases by users' chatting daily and frequently.</li>
                         <li>Google Sign In integration for ease of recording users' app usage</li>
                       </ul>
                       <h2><b>Technologies used:</b></h2>
@@ -204,7 +204,7 @@ class Projects extends Component{
                         <li>2 game modes: Classic and Timed.</li>
                         <li>Basic gameplay features with move undo, hints (for dimensions up to 4x4), and image completion preview.</li>
                         <li>3 different methods of selecting images.</li>
-                        <li>In-depth statistics for each puzzle dimension.</li>
+                        <li>In-depth gameplay statistics for each puzzle dimension.</li>
                         <li>Personal inbox for sending/receiving challenges to/from other players.</li>
                       </ul>
                       <h2><b>Technologies used:</b></h2>

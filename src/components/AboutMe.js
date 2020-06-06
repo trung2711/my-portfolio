@@ -19,7 +19,6 @@ class AboutMe extends Component{
                 and as a web developer at the Fox School of Business.</p>
               <p>I have a great passion for music and has received a minor in music along with my degree at Temple University, focusing on instrument playing and music technology. 
                 Having experience in audio recording and editing, I plan to make music production my long-term hobby and (hopefully) a secondary job.</p>
-              <p>I am also a travel enthusiast who have had experience living and studying as an in different countries - Vietnam, Italy, and the United States. I always strive to further expand my cultural knowledge and see what the world has to offer.</p> 
             </TextBlock>
           </Col>
           <Col md={4}>

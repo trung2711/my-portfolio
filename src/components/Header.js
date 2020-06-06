@@ -61,7 +61,7 @@ class Header extends Component {
                         <Scrollchor animate={ScrollStyle} to="About" className="Left-Edge">About</Scrollchor>
                         <Scrollchor animate={ScrollStyle} to="Projects">Projects</Scrollchor>
                         <Scrollchor animate={ScrollStyle} to="Contact">Contact</Scrollchor>
-                        <Scrollchor animate={ScrollStyle} to="Resume" className="Right-Edge">Resume</Scrollchor>
+                        <a className="Right-Edge" href={process.env.PUBLIC_URL + "/files/Trung_Nguyen_Resume.pdf"} download="Trung_Nguyen_Resume.pdf">Resume</a>
                     </div>
                     <Navbar className="My-Header-Nav-Bar" expand="md" variant="dark">
                     <Navbar.Toggle data-toggle="dropdown" aria-controls="header-navbar-nav"/>
@@ -70,7 +70,7 @@ class Header extends Component {
                         <Scrollchor animate={ScrollStyle} to="About" className="nav-link">About</Scrollchor>
                         <Scrollchor animate={ScrollStyle} to="Projects" className="nav-link">Projects</Scrollchor>
                         <Scrollchor animate={ScrollStyle} to="Contact" className="nav-link">Contact</Scrollchor>
-                        <Scrollchor animate={ScrollStyle} to="Resume" className="nav-link">Resume</Scrollchor>
+                        <a className="nav-link" href={process.env.PUBLIC_URL + "/files/Trung_Nguyen_Resume.pdf"} download="Trung_Nguyen_Resume.pdf">Resume</a>
                         </Nav>
                     </Navbar.Collapse>
                     </Navbar>
