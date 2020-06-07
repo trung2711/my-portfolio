@@ -210,3 +210,12 @@ h3 {
 .carousel-inner > .carousel-item > img {
   margin: 0 auto;
 }
+
+figure {
+  margin: auto;
+  max-width: 280px;
+  text-align: center;
+  img {
+    max-width: 100%;
+  }
+}

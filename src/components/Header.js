@@ -84,7 +84,7 @@ class Header extends Component {
                     <Col id="Header-Text-Container" lg={12}>
                         <BgText fontSize="1.2em">Hello, I am</BgText>
                         <BgText fontSize="1.8em">Trung Nguyen</BgText>
-                        <BgText fontSize="1em">Software engineer with a passion for music</BgText>
+                        <BgText fontSize="1em">Software developer with a passion for music</BgText>
                     </Col>
                 </Row>
             </div>

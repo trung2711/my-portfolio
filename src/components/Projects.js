@@ -142,8 +142,8 @@ class Projects extends Component{
                         progresses using the number of messages sent and the number of consecutive days of app usage.</p>
                     </Col>
                     <Col md={5}>
-                      <figure style={{textAlign: 'center'}}>
-                        <img src={Chatbot} alt="Chatbot demo" style={{width: '280px'}}></img>
+                      <figure style={{maxWidth: '280px', textAlign: 'center'}}>
+                        <img src={Chatbot} alt="Chatbot demo" style={{maxWidth: '100%', height:'auto'}}></img>
                         <figcaption style={{textAlign: 'center'}}><i>LinguaBox's chatbot feature</i></figcaption>
                       </figure>
                     </Col>
@@ -164,14 +164,14 @@ class Projects extends Component{
                   </Row>
                   <Row className="no-gutters">
                     <Col md={6}>
-                      <figure style={{textAlign: 'center'}}>
-                        <img src={ImageTranslate} alt="Image translate demo" style={{width: '280px'}}></img>
+                      <figure>
+                        <img src={ImageTranslate} alt="Feature demo"></img>
                         <figcaption style={{textAlign: 'center'}}><i>Image to text to translation</i></figcaption>
                       </figure>
                     </Col>
                     <Col md={6}>
-                      <figure style={{textAlign: 'center'}}>
-                        <img src={ChatProfile} alt="User's profile demo" style={{width: '280px'}}></img>
+                      <figure>
+                        <img src={ChatProfile} alt="User's profile demo"></img>
                         <figcaption style={{textAlign: 'center'}}><i>User's profile</i></figcaption>
                       </figure>
                     </Col>
@@ -191,8 +191,8 @@ class Projects extends Component{
                         <p><em>Special thanks to my collaborators: Adam Berck, Dan Tran, and Mike Lauw from Temple University's Class of 2020!</em></p>
                     </Col>
                     <Col md={5}>
-                      <figure style={{textAlign: 'center'}}>
-                        <img src={SlidePuzzleDemo} alt="Slide puzzle demo" style={{width: '280px'}}></img>
+                      <figure>
+                        <img src={SlidePuzzleDemo} alt="Slide puzzle demo"></img>
                         <figcaption style={{textAlign: 'center'}}><i>Gameplay features: moving, undoing, hints, and preview</i></figcaption>
                       </figure>
                     </Col>
@@ -213,14 +213,14 @@ class Projects extends Component{
                   </Row>
                   <Row className="no-gutters">
                     <Col md={6}>
-                      <figure style={{textAlign: 'center'}}>
-                        <img src={ImageSelection} alt="Image Selection methods" style={{width: '280px'}}></img>
+                      <figure>
+                        <img src={ImageSelection} alt="Selection methods"></img>
                         <figcaption style={{textAlign: 'center'}}><i>Methods of image selection</i></figcaption>
                       </figure>
                     </Col>
                     <Col md={6}>
-                      <figure style={{textAlign: 'center'}}>
-                        <img src={Statistics} alt="User's statistics" style={{width: '280px', height: '497.77px'}}></img>
+                      <figure>
+                        <img src={Statistics} alt="User's statistics"></img>
                         <figcaption style={{textAlign: 'center'}}><i>Example statistics for 3x3 puzzles</i></figcaption>
                       </figure>
                     </Col>
