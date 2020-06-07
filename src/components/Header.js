@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Scrollchor from 'react-scrollchor'
+import AOS from 'aos'
 
 import HeaderPhoto from '../img/Header-Photo.jpg'
 import BgText from './BgText'
@@ -25,6 +26,7 @@ class Header extends Component {
 
     updateHeight(e){
         this.props.heightCallBack(this.headerContainer.current.clientHeight);
+        AOS.refresh()
     }
 
     componentDidMount() {
@@ -56,7 +58,7 @@ class Header extends Component {
     render () {
         return (
             <div className="Header" ref={ this.headerContainer } style={this.getStyle()}>
-                <Row className="Header-Nav">
+                <Row className="Header-Nav" data-aos="zoom-in">
                     <div className="Border-Div">
                         <Scrollchor animate={ScrollStyle} to="About" className="Left-Edge">About</Scrollchor>
                         <Scrollchor animate={ScrollStyle} to="Projects">Projects</Scrollchor>
@@ -75,7 +77,7 @@ class Header extends Component {
                     </Navbar.Collapse>
                     </Navbar>
                 </Row>
-                <Row className="Header-Content no-gutters">
+                <Row className="Header-Content no-gutters" data-aos="zoom-in">
                     <Col id="Header-Photo-Container" lg={12}>
                         <div id="Header-Photo-Border">
                             <img id="Header-Photo" src={HeaderPhoto} alt="Avatar"></img>

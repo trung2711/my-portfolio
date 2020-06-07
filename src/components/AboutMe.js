@@ -8,7 +8,7 @@ class AboutMe extends Component{
   
   render() {
     return (
-      <div id="About">
+      <div id="About" data-aos="fade-down" data-aos-delay="100">
         <Row className="no-gutters">
           <Col md={8}>
             <TextBlock title="About Me">

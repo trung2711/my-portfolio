@@ -7,6 +7,8 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import $ from 'jquery'
 import siteBg from './img/White-Bg.svg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import './styles/Styles.scss';
 
@@ -24,6 +26,7 @@ class App extends Component{
   }
 
   componentDidMount() {
+    AOS.init({once: true, duration: 800})
     document.addEventListener('scroll', this.updateNav)
   }
  
@@ -34,7 +37,7 @@ class App extends Component{
   componentDidUpdate() {
     this.updateNav();
   }
- 
+
   updateNav = () => {
     var s = $(window).scrollTop()
     var h = this.headerHeight

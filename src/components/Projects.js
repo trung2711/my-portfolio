@@ -74,7 +74,7 @@ class Projects extends Component{
   render() {
     return (
       <div id="Projects" className="Projects">
-        <Row className="no-gutters">
+        <Row className="no-gutters" data-aos="fade-up" data-aos-delay="100">
           <Col lg={12}>
             <TextBlock title="My Projects">
             <div style={{paddingTop: '0.5em'}}>

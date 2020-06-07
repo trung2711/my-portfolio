@@ -9,7 +9,7 @@ class Contact extends Component{
   
   render() {
     return (
-      <div id="Contact">
+      <div id="Contact" data-aos="fade-up" data-aos-delay="200">
         <Row className="no-gutters">
           <Col lg={12}>
             <TextBlock title="Connect With Me">
